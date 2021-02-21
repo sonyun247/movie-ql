@@ -1,0 +1,25 @@
+{
+  "name": "movie-ql",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonyun247/movie-ql.git"
+  },
+  "author": "LEE Seungje <sonyun24@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonyun247/movie-ql/issues"
+  },
+  "homepage": "https://github.com/sonyun247/movie-ql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
