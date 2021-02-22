@@ -36,5 +36,15 @@ export const people = [
       return filteredPeople[0];
   }
 
+  export const addPerson = (name,age,gender) => {
+      const newPerson = {
+          id: people.length +1,
+          name,
+          age,
+          gender
+      };
+      people.push(newPerson);
+      return newPerson;
+  }
 
   
