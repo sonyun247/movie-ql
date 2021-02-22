@@ -1,4 +1,4 @@
-import {people,findPerson, addPerson} from "./db";
+import {people,findPerson, addPerson, deletePerson} from "./db";
 
 const resolvers = {
     Query: {
@@ -6,7 +6,8 @@ const resolvers = {
       person: (_,{id}) => findPerson(id)
     },
     Mutation:{
-      addPerson: (_,{name,age,gender})=>addPerson(name,age,gender)
+      addPerson: (_,{name,age,gender})=>addPerson(name,age,gender),
+      deletePerson: (_,{id})=>deletePerson(id)
     }
   };
 
